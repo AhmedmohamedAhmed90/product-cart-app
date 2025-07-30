@@ -47,32 +47,35 @@
 
 ```
 product-cart-app/
-├── components/                 # HTML component templates
-│   ├── product-card.html      # Individual product display
-│   ├── cart-item.html         # Cart item with controls
-│   ├── modal.html             # Order confirmation modal
-│   ├── products-section.html  # Products grid section
-│   └── cart-section.html      # Shopping cart section
+├── assets/
+│   └── images/                # Product images and icons
+├── components/                # HTML component templates
+│   ├── cart-item.html
+│   ├── cart-section.html
+│   ├── modal.html
+│   ├── product-card.html
+│   └── products-section.html
+├── data/
+│   └── data.json              # Product catalog
+├── js/                        # JavaScript modules
+│   ├── CartItem.js
+│   ├── Modal.js
+│   ├── ProductCard.js
+│   ├── cart.js
+│   ├── component-loader.js
+│   ├── products.js
+│   ├── storage.js
+│   ├── ui.js
+│   └── users.js
 ├── styles/                    # Modular CSS files
-│   ├── main.css              # Base styles and layout
-│   ├── products.css          # Product grid and cards
-│   ├── cart.css              # Cart styling and buttons
-│   ├── modal.css             # Modal and dialog styles
-│   └── user-interface.css    # User menu and dialogs
-├── js/                       # JavaScript modules
-│   ├── component-loader.js   # Dynamic component loading
-│   ├── products.js           # Product loading and rendering
-│   ├── cart.js               # Cart functionality
-│   ├── ui.js                 # UI rendering functions
-│   ├── storage.js            # Local storage utilities
-│   └── users.js              # User management system
-├── data/                     # Application data
-│   └── data.json            # Product catalog
-├── assets/                   # Static assets
-│   └── images/              # Product images and icons
-├── index.html               # Main HTML file (minimal)
-├── script.js                # Application entry point
-└── README.md                # This file
+│   ├── cart.css
+│   ├── main.css
+│   ├── modal.css
+│   ├── products.css
+│   └── user-interface.css
+├── index.html                 # Main HTML file (minimal)
+├── script.js                  # Application entry point
+└── README.md                  # This file
 ```
 
 ## How to Run the App
